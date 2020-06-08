@@ -1,0 +1,42 @@
+// 變數 
+.img-1 {
+  height: 240px;
+}
+
+.img-2 {
+  height: 350px;
+}
+
+.img-3 {
+  height: 480px;
+}
+
+//變數
+.topMenu {
+  background-color: #F2F2F2;
+}
+
+.main {
+  .card-columns {
+
+    span {
+      text-decoration: line-through;
+    }
+
+    img {
+      max-width: 350px;
+      object-fit: cover;
+    }
+
+    .pic {
+      position: relative;
+
+      h6 {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+    }
+  }
+
+}

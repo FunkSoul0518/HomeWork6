@@ -1,0 +1,23 @@
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../style/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "index";
+@import "product";
+@import "itemsInfo";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

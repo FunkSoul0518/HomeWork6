@@ -1,0 +1,95 @@
+.header {
+  z-index: 2;
+  right: 0;
+  left: 0;
+
+  .navbar {
+    padding: 24px 0;
+
+    .navbar-brand {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 900;
+      font-style: italic;
+    }
+
+    .navbar-nav {
+      margin-left: auto;
+    }
+  }
+
+}
+
+.leftSide {
+  margin-top: 150px;
+}
+
+.rightSide {
+  background-image: url("../images/rightside.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 0;
+
+}
+
+// banner
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+//swiper
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+  // .swiper-slide {
+  //   width: 200px;
+  // }
+  .pic {
+    position: relative;
+
+    h6 {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+    }
+  }
+}
+
+// sub
+
+.sub {
+  background-image: url("../images/sw6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+  input[type=text] {
+    padding: 10px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #FFFFFF99;
+    background-color: transparent;
+  }
+
+  #placeholder {
+    color: #FFFFFF99;
+  }
+}
+
+// footer 
+
+.footer {
+  background-color: black;
+
+  .row {
+    margin: 0;
+  }
+}

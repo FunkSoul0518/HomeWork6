@@ -1,0 +1,26 @@
+.topBlock {
+
+  .col-5 {
+    z-index: 2;
+    height: 298px;
+    margin-left: -95px;
+    margin-top: 105px;
+    border-radius: 2px;
+
+    p {
+      text-decoration: line-through;
+
+    }
+
+    button {
+      background-color: #F2F2F2;
+    }
+
+
+  }
+
+  h6 {
+    top: 24px;
+    left: 24px;
+  }
+}
